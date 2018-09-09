@@ -1,5 +1,7 @@
 package com.example.cly.domain;
 
+import org.hibernate.annotations.GenericGenerator;
+
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
@@ -8,7 +10,8 @@ import javax.persistence.Id;
 public class Person {
 
     @Id
-    @GeneratedValue
+    @GeneratedValue(generator = "uuid")
+    @GenericGenerator(name="uuid",strategy = "uuid2" )
     String id;
 
     private String name;
@@ -41,5 +44,14 @@ public class Person {
 
     public void setXhNum(Integer xhNum) {
         this.xhNum = xhNum;
+    }
+
+    @Override
+    public String toString() {
+        return "Person{" +
+                "id='" + id + '\'' +
+                ", name='" + name + '\'' +
+                ", xhNum=" + xhNum +
+                '}';
     }
 }
