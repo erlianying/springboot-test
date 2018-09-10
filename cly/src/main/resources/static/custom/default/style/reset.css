@@ -1,0 +1,59 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/*base.css*/
+body{background: none;background-color: transparent;color: transparent;}
+.input-group-addon{background-color:transparent;}
+fieldset[disabled] .form-control {background:none;}
+.form-control[readonly],
+fieldset[readonly] .form-control {background:none;}
+select.form-control{ _border:1px solid transparent;}
+.alert-info{border: 1px solid transparent;background:none;}
+table.dataTable tbody tr {background: none;}
+.select2-container--default .select2-selection--single {background-color: transparent;}
+table.m-ui-table-whole thead th,
+table.m-ui-table-whole thead td{background:none;}
+table.m-ui-table-whole tbody th,
+table.m-ui-table-whole tbody td{background: none;}
+table.m-ui-table-whole tbody th,
+table.m-ui-table-whole tbody td{background: none;}
+table.m-ui-table-border thead th,table.m-ui-table-border thead td{border: 1px solid transparent;background:transparent;}
+.m-ui-tabs .ui-tabs-nav{background:none;}
+.m-ui-tabs .ui-tabs-nav li a {border:1px solid transparent;}
+.ui-tabs .ui-tabs-nav li.ui-tabs-active a{border:1px solid transparent;}
+.ui-tabs .ui-tabs-nav li.ui-tabs-active{background:none;}
+.m-ui-tabs2 .ui-tabs-nav{background:none; border-color:transparent;}
+.m-ui-tabs2 .ui-tabs-nav > li > a {border:1px solid transparent;}
+.m-ui-tabs2 .ui-tabs-nav li a:hover{ background:none; border-bottom:1px solid transparent;}
+.m-ui-tabs2 li.ui-tabs-active a{ background:none!important;}
+.m-ui-tabs3 .ui-tabs-nav{border-color:transparent;}
+.m-ui-tabs3 .ui-tabs-nav li:hover,.m-ui-tabs3 .ui-tabs-nav li a:hover{ background:none;}
+
+
+/*util.css*/
+.ui-widget-content{background-color: transparent;}
+.form-control{background: transparent!important;}
+.c-top-content{background: none;}
+.m-ui-searchbox{ background: none; border-color:transparent;}
+.m-ui-title1{background-color:transparent; border-bottom-color:transparent;color: transparent;}
+.m-ui-addon{background:none;}
+.m-ui-title-xs{ border-bottom-color:transparent;}
+.con-interested .con{ background: none; border-color: transparent;}
+.con-inbox{border-color: transparent; background: none;}
+.eq-expand-btn{ background: #e2ecf3 url(../../../images/icon-down-1.png) center top no-repeat;}
+.eq-expand-line{background: #e2ecf3;}
+.eq-expand-btn:hover{background-color: #e6eef5;}
+.block-item {border-color: transparent;}
+.info-items .item {color: #fff}
+.search-tool-btn {border-color: transparent;}
+.chart-wraper .chart-area {  background-color: transparent;}
+.control-label {color: transparent;}
+.advanced-btn, .advanced-btn-up {color: transparent;}
+.panel{background-color: transparent;}
+.list-group-item {background-color: transparent;}
+
+/*日历*/
+.calendarWrapper {background-color: transparent;border-color: transparent;}
+.calendarWrapper #calendar {background: none;}
+.calendarWrapper .fc-header-title .selectable {background: none;}

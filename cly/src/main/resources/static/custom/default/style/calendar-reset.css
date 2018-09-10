@@ -1,0 +1,177 @@
+body {
+    text-shadow: none!important;
+}
+.ca-left {
+    float: left;
+    /*width: 614px;*/
+}
+.ca-right {
+    overflow: hidden;
+}
+.fr{
+    float: right;
+}
+.calendarWrapper {
+    margin: 0 auto 15px;
+    /*border: 2px solid #1bbbfe;*/
+    border: 2px solid #ebf2fc;
+    background-color: #ebf2fc;
+}
+#calendar {
+    /*width: 600px;*/
+    background: #fff;
+    padding: 10px 5px;
+    margin: 0;
+    display: inline-block;
+    float: left;
+}
+.calendarWrapper .rightSidePanel {
+    overflow: hidden;
+}
+.fc-header-title .selectable {
+    border-color: #1bbbfe;
+    font-size: 1em;
+    padding: 0.3em 0.6em 0.4em;
+    line-height: 1em;
+    border-radius: 4px;
+    margin-left: 10px;
+    color: #000;
+}
+.fc-state-default {
+    border-color: #1bbbfe;
+    background-color: transparent;
+    background-image: none;
+}
+.fc-day-header {
+    padding: 4px 0px!important;
+    color: #25992E;
+}
+.fc-day-top {
+    font-size: 17px;
+    font-weight: bold;
+    padding: 4px 4px 0 0;
+    color: #666;
+}
+.fc-day-top.fc-sun, .fc-day-top.fc-sat {
+    color: #ED6D23;
+}
+
+.fc-event {
+    border: 1px solid #FDE4C8;
+}
+.fc-event, .fc-event-dot {
+    background-color: #fff4e8!important;
+}
+.fc-event, .fc-event:hover {
+    color: #555;
+}
+.fc-row .fc-bg {
+    z-index: 5;
+}
+.fc-unthemed td.fc-today {
+    /*background: #e0f4d7;*/
+    background: url(../../../images/icon-today.png) no-repeat;
+}
+
+.fc-ltr .fc-basic-view .fc-day-top .fc-day-number {
+    float: none;
+    text-align: right;
+}
+.fc-day-cnDate, .fc-day-cnTerm {
+    padding-right: 4px;
+    text-align: right;
+    font-size: 12px;
+}
+.fc-day-cnDate {
+    color: #888;
+}
+.fc-day-cnTerm {
+    color: #6ABA49;
+}
+.fc-day-grid-event .fc-content {
+    /*text-align: center;*/
+}
+.fc-day-grid-event {
+    /*margin: 1px 5px 0 45px;*/
+    padding: 0 1px;
+}
+
+/** 页面额外组件样式 **/
+.h_calendar_alm {
+    text-align: center;
+}
+.alm_date {
+    height: 30px;
+    line-height: 30px;
+    background: #fff;
+    text-align: center;
+    color: #555;
+    font-family: "Microsoft YaHei";
+    font-size: 14px;
+}
+.alm_content {
+    padding: 10px 0px 15px;
+    /*border-top: 3px solid #b3deaf;*/
+    /*background: #e0f4d7;*/
+    position: relative;
+}
+.today_icon {
+    width: 50px;
+    height: 54px;
+    background: url(images/today_icon.jpg) no-repeat;
+    position: absolute;
+    right: 0px;
+    top: -3px;
+}
+.today_date {
+    /*font-size: 72px;
+    color: #1f9237;
+    line-height: 85px;
+    font-family: "Microsoft YaHei";
+    text-align: center;*/
+    font-size: 70px;
+    color: #ff7700;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+    line-height: 100px;
+    background: #fffae0;
+    border-radius: 4px;
+    border: 1px dotted #fff;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+    -webkit-box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+}
+.alm_content p {
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    line-height: 22px;
+}
+.alm_content .alm_lunar_date {
+    font-family: "Microsoft YaHei";
+    padding: 5px;
+    margin: 10px;
+    border: 2px dotted #fffae0;
+    border-radius: 4px;
+    background: #69caf3;
+    margin-top: 30px;
+    color: #fff;
+    letter-spacing: 1px;
+}
+.alm_date {
+    height: 40px;
+    line-height: 40px;
+    background: transparent;
+    text-align: center;
+    color: #000;
+    font-family: "Microsoft YaHei";
+    font-size: 17px;
+    margin: 0;
+    font-weight: 600;
+}
+
+.rightSidePanel .panel {margin-bottom: 10px;}
+.rightSidePanel a {color: #0f89c7;}
+.rightSidePanel a:hover {color: #12a0e8;}
+

@@ -1,0 +1,117 @@
+/* iCheck plugin skins
+----------------------------------- */
+@import url("minimal/_all.css");
+/*
+@import url("minimal/minimal.css");
+@import url("minimal/red.css");
+@import url("minimal/green.css");
+@import url("minimal/blue.css");
+@import url("minimal/aero.css");
+@import url("minimal/grey.css");
+@import url("minimal/orange.css");
+@import url("minimal/yellow.css");
+@import url("minimal/pink.css");
+@import url("minimal/purple.css");
+*/
+
+@import url("square/_all.css");
+/*
+@import url("square/square.css");
+@import url("square/red.css");
+@import url("square/green.css");
+@import url("square/blue.css");
+@import url("square/aero.css");
+@import url("square/grey.css");
+@import url("square/orange.css");
+@import url("square/yellow.css");
+@import url("square/pink.css");
+@import url("square/purple.css");
+*/
+
+@import url("round/_all.css");
+/*
+@import url("round/square.css");
+@import url("round/red.css");
+@import url("round/green.css");
+@import url("round/blue.css");
+@import url("round/aero.css");
+@import url("round/grey.css");
+@import url("round/orange.css");
+@import url("round/yellow.css");
+@import url("round/pink.css");
+@import url("round/purple.css");
+*/
+
+@import url("flat/_all.css");
+/*
+@import url("flat/flat.css");
+@import url("flat/red.css");
+@import url("flat/green.css");
+@import url("flat/blue.css");
+@import url("flat/aero.css");
+@import url("flat/grey.css");
+@import url("flat/orange.css");
+@import url("flat/yellow.css");
+@import url("flat/pink.css");
+@import url("flat/purple.css");
+*/
+
+@import url("line/_all.css");
+/*
+@import url("line/line.css");
+@import url("line/red.css");
+@import url("line/green.css");
+@import url("line/blue.css");
+@import url("line/aero.css");
+@import url("line/grey.css");
+@import url("line/orange.css");
+@import url("line/yellow.css");
+@import url("line/pink.css");
+@import url("line/purple.css");
+*/
+
+@import url("roundCancel/_all.css");
+/*
+@import url("roundCancel/square.css");
+@import url("roundCancel/red.css");
+@import url("roundCancel/green.css");
+@import url("roundCancel/blue.css");
+@import url("roundCancel/aero.css");
+@import url("roundCancel/grey.css");
+@import url("roundCancel/orange.css");
+@import url("roundCancel/yellow.css");
+@import url("roundCancel/pink.css");
+@import url("roundCancel/purple.css");
+*/
+
+@import url("cancel/_all.css");
+/*
+@import url("cancel/square.css");
+@import url("cancel/red.css");
+@import url("cancel/green.css");
+@import url("cancel/blue.css");
+@import url("cancel/aero.css");
+@import url("cancel/grey.css");
+@import url("cancel/orange.css");
+@import url("cancel/yellow.css");
+@import url("cancel/pink.css");
+@import url("cancel/purple.css");
+*/
+
+@import url("ztreecancel/_all.css");
+/*
+@import url("ztreecancel/square.css");
+@import url("ztreecancel/red.css");
+@import url("ztreecancel/green.css");
+@import url("ztreecancel/blue.css");
+@import url("ztreecancel/aero.css");
+@import url("ztreecancel/grey.css");
+@import url("ztreecancel/orange.css");
+@import url("ztreecancel/yellow.css");
+@import url("ztreecancel/pink.css");
+@import url("ztreecancel/purple.css");
+*/
+
+@import url("polaris/polaris.css");
+
+@import url("futurico/futurico.css");

@@ -1,0 +1,169 @@
+@charset "utf-8";
+/* CSS Document */
+html,body{height: 100%;}
+body{ 
+background:#011f6e url(../../../images/login/loginbg.jpg) no-repeat center bottom; 
+height: 100%;
+overflow: hidden;
+}
+.logo-name{ 
+padding:20px;
+color:#fff; 
+text-align:center;
+font-weight:normal;
+font-family:Microsoft Yahei;
+margin:0;
+}
+.logo-name h1{font-weight:normal;font-size:25px; margin:0; padding:0; line-height:30px; text-align:center;}
+.logo-name h1:before{ content:url(../../../images/logo.png); margin-right:6px; vertical-align:middle; display:inline-block;}
+.login-box{
+width:500px; 
+padding-left: 600px;
+height:450px;
+padding-top:120px;
+position: absolute; 
+left:50%; 
+z-index: 2000;
+margin-left: -543px;
+top:45%; 
+margin-top:-250px;
+border-radius:10px;
+background:url(../../../images/login/logobg.png) no-repeat 0 -20px; 
+}
+.login-box h2{ text-align:center; font-weight:normal;font-family:Microsoft Yahei;  font-size:18px; color:#aaa; padding:20px 0 20px 0; margin:0 20px;}
+.login-box .content{ width:300px; margin:0 auto;}
+.login-box .content h1{font-family:Microsoft Yahei; font-size:18px; color:#111; margin-bottom:15px; text-align:center; font-weight:normal;}
+.login-box input,.login-box button{ width:235px; color:#fff; border-radius:4px;font-family:Heiti, Microsoft Yahei; outline:none;}
+.login-box input{ 
+height:40px; line-height:40px; 
+border:none;
+border:1px solid #8bd2ff; font-size:16px; 
+margin-bottom:20px; padding-left:10px; width:220px;
+background:rgba(10,50,125,0.5);
+color:#fff;
+z-index:1;
+}
+.login-box .put2{ background-position:10px -40px;}
+.login-box .put3{ background-position:10px -85px;}
+.login-box .row{ position:relative;}
+.login-box label{
+  /*position:absolute; */
+  display: inline-block;
+  height:40px; width:58px;  
+  z-index:100; 
+  line-height:38px;
+  font-family:Microsoft Yahei; 
+  color:#fff;
+  font-size: 17px;}
+
+.login-box button{ height:45px; background:#1bbbfe; border:none;font-size:18px; margin-top:20px; margin-left: 64px;}
+.login-box button:hover{background:#00a5ea;}
+.login-box button:active{background:#3d9fd1;}
+.login-box input:focus{
+color:#fff!important;
+border:1px solid #4fb3e6;
+}
+.input-wrong:focus{border:1px solid #ff8686!important;}
+.login-box .tips-out{ position:relative; display:none;}
+.login-box .tips{position:absolute;  z-index: 100; top: -64px; right: -168px; width: 150px; height: 44px; line-height: 44px; border-top-right-radius: 20px; border-bottom-right-radius: 20px; background: #4fb3e6; color: #fff; font-size: 12px; padding-left: 20px; margin: 0; box-shadow: 1px 1px 6px rgba(0,0,0,0.2); }
+.login-box .tips.alt{background:#ff8686;}
+.login-box .yanzm-out{ position:relative;}
+.login-box .yanzm{ position:absolute; top:-58px; right:6px;}
+.login-box .yanzm img{ height:32px;}
+.wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.taiji{ color: #5ac7ff; text-align:right; font-size: 12px; padding-top: 10px;
+padding-right: 20px; position: absolute; bottom: 20px; right: 20px; z-index: 2;}
+
+/*.login-box input:focus+.tips-out{ display:block;}*/
+
+.bjmap{
+  background:url(../../../images/login/mapbg.png) 0 0;
+  width: 877px;
+  height: 809px;
+  position: absolute;
+  left: 50%;
+  margin-left:-200px;
+  top: 50%;
+  margin-top:-400px; 
+  z-index: 1; 
+}
+/**雷达扫描***/
+.radar {
+  background: 
+  -webkit-radial-gradient(center, rgba(32, 200, 255, 0.3) 0%, rgba(32, 200, 255, 0) 75%), 
+  -webkit-repeating-radial-gradient(rgba(32, 200, 255, 0) 5.8%, rgba(32, 200, 255, 0) 18%, #00ccff 18.6%, rgba(32, 200, 255, 0) 18.9%), 
+  -webkit-linear-gradient(90deg, rgba(32, 200, 255, 0) 49.5%, #00ccff 50%, #00ccff 50%, rgba(32, 200, 255, 0) 50.2%), 
+  -webkit-linear-gradient(0deg, rgba(32, 200, 255, 0) 49.5%, #00ccff 50%, #00ccff 50%, rgba(32, 200, 255, 0) 50.2%);
+  width: 600px;
+  height: 600px;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  overflow: hidden;
+  margin-left: -240px;
+  margin-top: -20px;
+}
+.radar:before {
+  content: ' ';
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  animation: blips 5s infinite;
+  animation-timing-function: linear;
+  animation-delay: 1.4s;
+}
+.radar:after {
+  content: ' ';
+  display: block;
+  background-image: linear-gradient(44deg, rgba(0, 204, 255, 0) 50%, #00ccff 100%);
+  width: 50%;
+  height: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  animation: radar-beam 5s infinite;
+  animation-timing-function: linear;
+  transform-origin: bottom right;
+  border-radius: 100% 0 0 0;
+}
+
+@keyframes radar-beam {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes blips {
+  14% {
+    background: radial-gradient(2vmin circle at 75% 70%, #ffffff 10%, #00ccff 30%, rgba(255, 255, 255, 0) 100%);
+  }
+  14.0002% {
+    background: radial-gradient(2vmin circle at 75% 70%, #ffffff 10%, #00ccff 30%, rgba(255, 255, 255, 0) 100%), radial-gradient(2vmin circle at 63% 72%, #ffffff 10%, #00ccff 30%, rgba(255, 255, 255, 0) 100%);
+  }
+  25% {
+    background: radial-gradient(2vmin circle at 75% 70%, #ffffff 10%, #00ccff 30%, rgba(255, 255, 255, 0) 100%), radial-gradient(2vmin circle at 63% 72%, #ffffff 10%, #00ccff 30%, rgba(255, 255, 255, 0) 100%), radial-gradient(2vmin circle at 56% 86%, #ffffff 10%, #00ccff 30%, rgba(255, 255, 255, 0) 100%);
+  }
+  26% {
+    background: radial-gradient(2vmin circle at 75% 70%, #ffffff 10%, #00ccff 30%, rgba(255, 255, 255, 0) 100%), radial-gradient(2vmin circle at 63% 72%, #ffffff 10%, #00ccff 30%, rgba(255, 255, 255, 0) 100%), radial-gradient(2vmin circle at 56% 86%, #ffffff 10%, #00ccff 30%, rgba(255, 255, 255, 0) 100%);
+    opacity: 1;
+  }
+  100% {
+    background: radial-gradient(2vmin circle at 75% 70%, #ffffff 10%, #00ccff 30%, rgba(255, 255, 255, 0) 100%), radial-gradient(2vmin circle at 63% 72%, #ffffff 10%, #00ccff 30%, rgba(255, 255, 255, 0) 100%), radial-gradient(2vmin circle at 56% 86%, #ffffff 10%, #00ccff 30%, rgba(255, 255, 255, 0) 100%);
+    opacity: 0;
+  }
+}
+

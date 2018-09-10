@@ -1,0 +1,27 @@
+﻿{
+  "nodes":[
+    { "name": "张三"   , "id":110108197603056785, "num": 13011112222, "crowd": "善心汇，E租宝111"},
+    { "name": "李四"   , "id":110108197603056785, "num": 13011112222, "crowd": "善心汇，E租宝222"},
+    { "name": "王五"   , "id":110108197603056785, "num": 13011112222, "crowd": "善心汇，E租宝333"},
+    { "name": "赵六" , "id":110108197603056785, "num": 13011112222, "crowd": "善心汇，E租宝444"},
+    { "name": "毛毛" , "id":110108197603056785, "num": 13011112222, "crowd": "善心汇，E租宝555"},
+    { "name": "飞飞" , "id":110108197603056785, "num": 13011112222, "crowd": "善心汇，E租宝666"}
+  ],
+  "links":[
+    { "source": 0 , "target": 1 , "relation":"火车同行" },
+    { "source": 0 , "target": 1 , "relation":"同上网" },
+    { "source": 0 , "target": 2 , "relation":"同上网" },
+    { "source": 0 , "target": 2 , "relation":"同上网" },
+    { "source": 0 , "target": 2 , "relation":"飞机同行" },
+    { "source": 0 , "target": 3 , "relation":"飞机同行" },
+    { "source": 0 , "target": 3 , "relation":"飞机同行" },
+    { "source": 1 , "target": 2 , "relation":"火车同行" },
+    { "source": 1 , "target": 3 , "relation":"同线索" },
+    { "source": 2 , "target": 5 , "relation":"火车同行" },
+    { "source": 2 , "target": 5 , "relation":"火车同行" },
+    { "source": 2 , "target": 5 , "relation":"火车同行" },
+    { "source": 0 , "target": 4 , "relation":"旅店同住" },
+    { "source": 0 , "target": 4 , "relation":"旅店同住" },
+    { "source": 0 , "target": 4 , "relation":"旅店同住" }
+  ]
+}

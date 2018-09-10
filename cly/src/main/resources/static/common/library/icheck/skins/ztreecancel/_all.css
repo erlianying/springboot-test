@@ -1,0 +1,591 @@
+/* iCheck plugin ztreecancel skin
+----------------------------------- */
+.icheckbox_ztreecancel,
+.iradio_ztreecancel {
+    display: inline-block;
+    *display: inline;
+    vertical-align: middle;
+    margin: 0;
+    padding: 0;
+    width: 22px;
+    height: 22px;
+    background: url(ztreecancel.png) no-repeat;
+    border: none;
+    cursor: pointer;
+}
+
+.icheckbox_ztreecancel {
+    background-position: 0 0;
+}
+    .icheckbox_ztreecancel.hover {
+        background-position: -24px 0;
+    }
+    .icheckbox_ztreecancel.checked {
+        background-position: -48px 0;
+    }
+    .icheckbox_ztreecancel.disabled {
+        background-position: -72px 0;
+        cursor: default;
+    }
+    .icheckbox_ztreecancel.checked.disabled {
+        background-position: -96px 0;
+    }
+
+.iradio_ztreecancel {
+    background-position: -120px 0;
+}
+    .iradio_ztreecancel.hover {
+        background-position: -144px 0;
+    }
+    .iradio_ztreecancel.checked {
+        background-position: -168px 0;
+    }
+    .iradio_ztreecancel.disabled {
+        background-position: -192px 0;
+        cursor: default;
+    }
+    .iradio_ztreecancel.checked.disabled {
+        background-position: -216px 0;
+    }
+
+/* HiDPI support */
+@media (-o-min-device-pixel-ratio: 5/4), (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi) {
+    .icheckbox_ztreecancel,
+    .iradio_ztreecancel {
+        background-image: url(ztreecancel@2x.png);
+        -webkit-background-size: 240px 24px;
+        background-size: 240px 24px;
+    }
+}
+
+/* red */
+.icheckbox_ztreecancel-red,
+.iradio_ztreecancel-red {
+    display: inline-block;
+    *display: inline;
+    vertical-align: middle;
+    margin: 0;
+    padding: 0;
+    width: 22px;
+    height: 22px;
+    background: url(red.png) no-repeat;
+    border: none;
+    cursor: pointer;
+}
+
+.icheckbox_ztreecancel-red {
+    background-position: 0 0;
+}
+    .icheckbox_ztreecancel-red.hover {
+        background-position: -24px 0;
+    }
+    .icheckbox_ztreecancel-red.checked {
+        background-position: -48px 0;
+    }
+    .icheckbox_ztreecancel-red.disabled {
+        background-position: -72px 0;
+        cursor: default;
+    }
+    .icheckbox_ztreecancel-red.checked.disabled {
+        background-position: -96px 0;
+    }
+
+.iradio_ztreecancel-red {
+    background-position: -120px 0;
+}
+    .iradio_ztreecancel-red.hover {
+        background-position: -144px 0;
+    }
+    .iradio_ztreecancel-red.checked {
+        background-position: -168px 0;
+    }
+    .iradio_ztreecancel-red.disabled {
+        background-position: -192px 0;
+        cursor: default;
+    }
+    .iradio_ztreecancel-red.checked.disabled {
+        background-position: -216px 0;
+    }
+
+/* HiDPI support */
+@media (-o-min-device-pixel-ratio: 5/4), (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi) {
+    .icheckbox_ztreecancel-red,
+    .iradio_ztreecancel-red {
+        background-image: url(red@2x.png);
+        -webkit-background-size: 240px 24px;
+        background-size: 240px 24px;
+    }
+}
+
+/* 13 x 13 */
+/* green */
+.icheckbox_ztreecancel-green,
+.iradio_ztreecancel-green {
+    display: inline-block;
+    *display: inline;
+    vertical-align: middle;
+    margin: 0;
+    padding: 0;
+    width: 22px;
+    height: 22px;
+    background: url(green.png) no-repeat;
+    border: none;
+    cursor: pointer;
+}
+
+.icheckbox_ztreecancel-green {
+    background-position: 0 0;
+}
+    .icheckbox_ztreecancel-green.hover {
+        background-position: -24px 0;
+    }
+    .icheckbox_ztreecancel-green.checked {
+        background-position: -48px 0;
+    }
+    .icheckbox_ztreecancel-green.disabled {
+        background-position: -72px 0;
+        cursor: default;
+    }
+    .icheckbox_ztreecancel-green.checked.disabled {
+        background-position: -96px 0;
+    }
+
+.iradio_ztreecancel-green {
+    background-position: -120px 0;
+}
+    .iradio_ztreecancel-green.hover {
+        background-position: -144px 0;
+    }
+    .iradio_ztreecancel-green.checked {
+        background-position: -168px 0;
+    }
+    .iradio_ztreecancel-green.disabled {
+        background-position: -192px 0;
+        cursor: default;
+    }
+    .iradio_ztreecancel-green.checked.disabled {
+        background-position: -216px 0;
+    }
+
+/* HiDPI support */
+@media (-o-min-device-pixel-ratio: 5/4), (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi) {
+    .icheckbox_ztreecancel-green,
+    .iradio_ztreecancel-green {
+        background-image: url(green@2x.png);
+        -webkit-background-size: 240px 24px;
+        background-size: 240px 24px;
+    }
+}
+
+/* blue */
+.icheckbox_ztreecancel-blue,
+.iradio_ztreecancel-blue {
+    display: inline-block;
+    *display: inline;
+    vertical-align: middle;
+    margin: 0;
+    padding: 0;
+    width: 22px;
+    height: 22px;
+    background: url(blue.png) no-repeat;
+    border: none;
+    cursor: pointer;
+}
+
+.icheckbox_ztreecancel-blue {
+    background-position: 0 0;
+}
+    .icheckbox_ztreecancel-blue.hover {
+        background-position: -24px 0;
+    }
+    .icheckbox_ztreecancel-blue.checked {
+        background-position: -48px 0;
+    }
+    .icheckbox_ztreecancel-blue.disabled {
+        background-position: -72px 0;
+        cursor: default;
+    }
+    .icheckbox_ztreecancel-blue.checked.disabled {
+        background-position: -96px 0;
+    }
+
+.iradio_ztreecancel-blue {
+    background-position: -120px 0;
+}
+    .iradio_ztreecancel-blue.hover {
+        background-position: -144px 0;
+    }
+    .iradio_ztreecancel-blue.checked {
+        background-position: -168px 0;
+    }
+    .iradio_ztreecancel-blue.disabled {
+        background-position: -192px 0;
+        cursor: default;
+    }
+    .iradio_ztreecancel-blue.checked.disabled {
+        background-position: -216px 0;
+    }
+
+/* HiDPI support */
+@media (-o-min-device-pixel-ratio: 5/4), (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi) {
+    .icheckbox_ztreecancel-blue,
+    .iradio_ztreecancel-blue {
+        background-image: url(blue@2x.png);
+        -webkit-background-size: 240px 24px;
+        background-size: 240px 24px;
+    }
+}
+
+/* aero */
+.icheckbox_ztreecancel-aero,
+.iradio_ztreecancel-aero {
+    display: inline-block;
+    *display: inline;
+    vertical-align: middle;
+    margin: 0;
+    padding: 0;
+    width: 22px;
+    height: 22px;
+    background: url(aero.png) no-repeat;
+    border: none;
+    cursor: pointer;
+}
+
+.icheckbox_ztreecancel-aero {
+    background-position: 0 0;
+}
+    .icheckbox_ztreecancel-aero.hover {
+        background-position: -24px 0;
+    }
+    .icheckbox_ztreecancel-aero.checked {
+        background-position: -48px 0;
+    }
+    .icheckbox_ztreecancel-aero.disabled {
+        background-position: -72px 0;
+        cursor: default;
+    }
+    .icheckbox_ztreecancel-aero.checked.disabled {
+        background-position: -96px 0;
+    }
+
+.iradio_ztreecancel-aero {
+    background-position: -120px 0;
+}
+    .iradio_ztreecancel-aero.hover {
+        background-position: -144px 0;
+    }
+    .iradio_ztreecancel-aero.checked {
+        background-position: -168px 0;
+    }
+    .iradio_ztreecancel-aero.disabled {
+        background-position: -192px 0;
+        cursor: default;
+    }
+    .iradio_ztreecancel-aero.checked.disabled {
+        background-position: -216px 0;
+    }
+
+/* HiDPI support */
+@media (-o-min-device-pixel-ratio: 5/4), (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi) {
+    .icheckbox_ztreecancel-aero,
+    .iradio_ztreecancel-aero {
+        background-image: url(aero@2x.png);
+        -webkit-background-size: 240px 24px;
+        background-size: 240px 24px;
+    }
+}
+
+/* grey */
+.icheckbox_ztreecancel-grey,
+.iradio_ztreecancel-grey {
+    display: inline-block;
+    *display: inline;
+    vertical-align: middle;
+    margin: 0;
+    padding: 0;
+    width: 22px;
+    height: 22px;
+    background: url(grey.png) no-repeat;
+    border: none;
+    cursor: pointer;
+}
+
+.icheckbox_ztreecancel-grey {
+    background-position: 0 0;
+}
+    .icheckbox_ztreecancel-grey.hover {
+        background-position: -24px 0;
+    }
+    .icheckbox_ztreecancel-grey.checked {
+        background-position: -48px 0;
+    }
+    .icheckbox_ztreecancel-grey.disabled {
+        background-position: -72px 0;
+        cursor: default;
+    }
+    .icheckbox_ztreecancel-grey.checked.disabled {
+        background-position: -96px 0;
+    }
+
+.iradio_ztreecancel-grey {
+    background-position: -120px 0;
+}
+    .iradio_ztreecancel-grey.hover {
+        background-position: -144px 0;
+    }
+    .iradio_ztreecancel-grey.checked {
+        background-position: -168px 0;
+    }
+    .iradio_ztreecancel-grey.disabled {
+        background-position: -192px 0;
+        cursor: default;
+    }
+    .iradio_ztreecancel-grey.checked.disabled {
+        background-position: -216px 0;
+    }
+
+/* HiDPI support */
+@media (-o-min-device-pixel-ratio: 5/4), (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi) {
+    .icheckbox_ztreecancel-grey,
+    .iradio_ztreecancel-grey {
+        background-image: url(grey@2x.png);
+        -webkit-background-size: 240px 24px;
+        background-size: 240px 24px;
+    }
+}
+
+/* orange */
+.icheckbox_ztreecancel-orange,
+.iradio_ztreecancel-orange {
+    display: inline-block;
+    *display: inline;
+    vertical-align: middle;
+    margin: 0;
+    padding: 0;
+    width: 22px;
+    height: 22px;
+    background: url(orange.png) no-repeat;
+    border: none;
+    cursor: pointer;
+}
+
+.icheckbox_ztreecancel-orange {
+    background-position: 0 0;
+}
+    .icheckbox_ztreecancel-orange.hover {
+        background-position: -24px 0;
+    }
+    .icheckbox_ztreecancel-orange.checked {
+        background-position: -48px 0;
+    }
+    .icheckbox_ztreecancel-orange.disabled {
+        background-position: -72px 0;
+        cursor: default;
+    }
+    .icheckbox_ztreecancel-orange.checked.disabled {
+        background-position: -96px 0;
+    }
+
+.iradio_ztreecancel-orange {
+    background-position: -120px 0;
+}
+    .iradio_ztreecancel-orange.hover {
+        background-position: -144px 0;
+    }
+    .iradio_ztreecancel-orange.checked {
+        background-position: -168px 0;
+    }
+    .iradio_ztreecancel-orange.disabled {
+        background-position: -192px 0;
+        cursor: default;
+    }
+    .iradio_ztreecancel-orange.checked.disabled {
+        background-position: -216px 0;
+    }
+
+/* HiDPI support */
+@media (-o-min-device-pixel-ratio: 5/4), (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi) {
+    .icheckbox_ztreecancel-orange,
+    .iradio_ztreecancel-orange {
+        background-image: url(orange@2x.png);
+        -webkit-background-size: 240px 24px;
+        background-size: 240px 24px;
+    }
+}
+
+/* yellow */
+.icheckbox_ztreecancel-yellow,
+.iradio_ztreecancel-yellow {
+    display: inline-block;
+    *display: inline;
+    vertical-align: middle;
+    margin: 0;
+    padding: 0;
+    width: 22px;
+    height: 22px;
+    background: url(yellow.png) no-repeat;
+    border: none;
+    cursor: pointer;
+}
+
+.icheckbox_ztreecancel-yellow {
+    background-position: 0 0;
+}
+    .icheckbox_ztreecancel-yellow.hover {
+        background-position: -24px 0;
+    }
+    .icheckbox_ztreecancel-yellow.checked {
+        background-position: -48px 0;
+    }
+    .icheckbox_ztreecancel-yellow.disabled {
+        background-position: -72px 0;
+        cursor: default;
+    }
+    .icheckbox_ztreecancel-yellow.checked.disabled {
+        background-position: -96px 0;
+    }
+
+.iradio_ztreecancel-yellow {
+    background-position: -120px 0;
+}
+    .iradio_ztreecancel-yellow.hover {
+        background-position: -144px 0;
+    }
+    .iradio_ztreecancel-yellow.checked {
+        background-position: -168px 0;
+    }
+    .iradio_ztreecancel-yellow.disabled {
+        background-position: -192px 0;
+        cursor: default;
+    }
+    .iradio_ztreecancel-yellow.checked.disabled {
+        background-position: -216px 0;
+    }
+
+/* HiDPI support */
+@media (-o-min-device-pixel-ratio: 5/4), (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi) {
+    .icheckbox_ztreecancel-yellow,
+    .iradio_ztreecancel-yellow {
+        background-image: url(yellow@2x.png);
+        -webkit-background-size: 240px 24px;
+        background-size: 240px 24px;
+    }
+}
+
+/* pink */
+.icheckbox_ztreecancel-pink,
+.iradio_ztreecancel-pink {
+    display: inline-block;
+    *display: inline;
+    vertical-align: middle;
+    margin: 0;
+    padding: 0;
+    width: 22px;
+    height: 22px;
+    background: url(pink.png) no-repeat;
+    border: none;
+    cursor: pointer;
+}
+
+.icheckbox_ztreecancel-pink {
+    background-position: 0 0;
+}
+    .icheckbox_ztreecancel-pink.hover {
+        background-position: -24px 0;
+    }
+    .icheckbox_ztreecancel-pink.checked {
+        background-position: -48px 0;
+    }
+    .icheckbox_ztreecancel-pink.disabled {
+        background-position: -72px 0;
+        cursor: default;
+    }
+    .icheckbox_ztreecancel-pink.checked.disabled {
+        background-position: -96px 0;
+    }
+
+.iradio_ztreecancel-pink {
+    background-position: -120px 0;
+}
+    .iradio_ztreecancel-pink.hover {
+        background-position: -144px 0;
+    }
+    .iradio_ztreecancel-pink.checked {
+        background-position: -168px 0;
+    }
+    .iradio_ztreecancel-pink.disabled {
+        background-position: -192px 0;
+        cursor: default;
+    }
+    .iradio_ztreecancel-pink.checked.disabled {
+        background-position: -216px 0;
+    }
+
+/* HiDPI support */
+@media (-o-min-device-pixel-ratio: 5/4), (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi) {
+    .icheckbox_ztreecancel-pink,
+    .iradio_ztreecancel-pink {
+        background-image: url(pink@2x.png);
+        -webkit-background-size: 240px 24px;
+        background-size: 240px 24px;
+    }
+}
+
+/* purple */
+.icheckbox_ztreecancel-purple,
+.iradio_ztreecancel-purple {
+    display: inline-block;
+    *display: inline;
+    vertical-align: middle;
+    margin: 0;
+    padding: 0;
+    width: 22px;
+    height: 22px;
+    background: url(purple.png) no-repeat;
+    border: none;
+    cursor: pointer;
+}
+
+.icheckbox_ztreecancel-purple {
+    background-position: 0 0;
+}
+    .icheckbox_ztreecancel-purple.hover {
+        background-position: -24px 0;
+    }
+    .icheckbox_ztreecancel-purple.checked {
+        background-position: -48px 0;
+    }
+    .icheckbox_ztreecancel-purple.disabled {
+        background-position: -72px 0;
+        cursor: default;
+    }
+    .icheckbox_ztreecancel-purple.checked.disabled {
+        background-position: -96px 0;
+    }
+
+.iradio_ztreecancel-purple {
+    background-position: -120px 0;
+}
+    .iradio_ztreecancel-purple.hover {
+        background-position: -144px 0;
+    }
+    .iradio_ztreecancel-purple.checked {
+        background-position: -168px 0;
+    }
+    .iradio_ztreecancel-purple.disabled {
+        background-position: -192px 0;
+        cursor: default;
+    }
+    .iradio_ztreecancel-purple.checked.disabled {
+        background-position: -216px 0;
+    }
+
+/* HiDPI support */
+@media (-o-min-device-pixel-ratio: 5/4), (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi), (min-resolution: 1.25dppx) {
+    .icheckbox_ztreecancel-purple,
+    .iradio_ztreecancel-purple {
+        background-image: url(purple@2x.png);
+        -webkit-background-size: 240px 24px;
+        background-size: 240px 24px;
+    }
+}
