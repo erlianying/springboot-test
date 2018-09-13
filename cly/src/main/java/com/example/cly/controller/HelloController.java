@@ -24,11 +24,8 @@ public class HelloController {
     @Autowired
     private PersonService personService;
 
-
     @Value("${xingming}")
     private String xingming;
-
-
 
     @RequestMapping(value="/test" ,method = RequestMethod.POST)
     public String test(){
@@ -37,6 +34,8 @@ public class HelloController {
 
     @RequestMapping(value="/findAllPerson" ,method = RequestMethod.POST)
     public Result findAllPerson(){
+        Person person = new Person();
+
         List<Person> persons = personRepository.findAll();
         if(null == persons || persons.size() <= 0){
             ReturnResultUtil.returnError(null);
@@ -48,7 +47,6 @@ public class HelloController {
     public String savePerson(Person person){
         Person p = new Person();
         p.setName(person.getName());
-        p.setXhNum(person.getXhNum());
         personService.savePerson(p);
         return "true";
     }

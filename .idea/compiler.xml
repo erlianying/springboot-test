@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="cly" />
+        <module name="demo (1)" />
+        <module name="mybatis-dome" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cly" target="1.8" />
+      <module name="demo" target="1.5" />
+      <module name="demo (1)" target="1.8" />
+      <module name="demo (2)" target="1.5" />
+      <module name="mybatis-dome" target="1.8" />
+      <module name="springboot-test" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

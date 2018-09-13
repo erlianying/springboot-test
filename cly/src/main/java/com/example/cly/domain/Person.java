@@ -5,22 +5,24 @@ import org.hibernate.annotations.GenericGenerator;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
+import javax.persistence.Table;
 
 @Entity
+@Table
 public class Person {
 
     @Id
     @GeneratedValue(generator = "uuid")
     @GenericGenerator(name="uuid",strategy = "uuid2" )
-    String id;
+    private String id;
 
     private String name;
 
-    private Integer xhNum;
+    private String sex;
 
-    public Person() {
+    private String phoneNumber;
 
-    }
+    private String identity;
 
     public String getId() {
         return id;
@@ -38,20 +40,29 @@ public class Person {
         this.name = name;
     }
 
-    public Integer getXhNum() {
-        return xhNum;
+    public String getSex() {
+        return sex;
     }
 
-    public void setXhNum(Integer xhNum) {
-        this.xhNum = xhNum;
+    public void setSex(String sex) {
+        this.sex = sex;
     }
 
-    @Override
-    public String toString() {
-        return "Person{" +
-                "id='" + id + '\'' +
-                ", name='" + name + '\'' +
-                ", xhNum=" + xhNum +
-                '}';
+    public String getPhoneNumber() {
+        return phoneNumber;
     }
+
+    public void setPhoneNumber(String phoneNumber) {
+        this.phoneNumber = phoneNumber;
+    }
+
+    public String getIdentity() {
+        return identity;
+    }
+
+    public void setIdentity(String identity) {
+        this.identity = identity;
+    }
+
 }
+
