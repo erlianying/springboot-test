@@ -9,12 +9,14 @@
         <module name="cly" />
         <module name="demo" />
         <module name="mybatis-dome" />
+        <module name="security-dome" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="cly" target="1.8" />
       <module name="demo" target="1.8" />
       <module name="mybatis-dome" target="1.8" />
+      <module name="security-dome" target="1.8" />
       <module name="springboot-test" target="1.5" />
     </bytecodeTargetLevel>
   </component>

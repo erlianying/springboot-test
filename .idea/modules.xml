@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/cly/cly.iml" filepath="$PROJECT_DIR$/cly/cly.iml" />
       <module fileurl="file://$PROJECT_DIR$/cly/demo.iml" filepath="$PROJECT_DIR$/cly/demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/mybatis-dome/mybatis-dome.iml" filepath="$PROJECT_DIR$/mybatis-dome/mybatis-dome.iml" />
+      <module fileurl="file://$PROJECT_DIR$/security-dome/security-dome.iml" filepath="$PROJECT_DIR$/security-dome/security-dome.iml" />
     </modules>
   </component>
 </project>

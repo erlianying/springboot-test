@@ -3,5 +3,6 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/cly" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mybatis-dome" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/security-dome" charset="UTF-8" />
   </component>
 </project>
